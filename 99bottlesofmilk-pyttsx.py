@@ -5,7 +5,7 @@ import pyttsx
 engine = pyttsx.init()
 
 def take_1_down():
-    bottles_milk = 99
+    bottles_milk = 2
     while bottles_milk > 0:
         bottles_milk_minus_1 = bottles_milk - 1
         if bottles_milk == 1:
@@ -17,6 +17,8 @@ def take_1_down():
         engine.say('Take 1 down pass it around')
         if bottles_milk_minus_1 == 1:
             engine.say('%s bottle of milk on the wall' % bottles_milk_minus_1 )
+        elif bottles_milk_minus_1 == 0:
+            engine.say('No bottles of milk on the wall')
         else:
             engine.say('%s bottles of milk on the wall' % bottles_milk_minus_1 )
         bottles_milk = bottles_milk - 1
