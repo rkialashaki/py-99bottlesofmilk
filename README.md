@@ -8,10 +8,10 @@ Written for python 3.5.
 The espeak example requires you to have the espeak text to speech synthisizer command line utility
 installed.  
 
-####For ubuntu:
+#### For ubuntu:
 `sudo apt-get install espeak`
 
-####Mac OSX:
+#### Mac OSX:
 
 ##### Macports
 `sudo port install espeak`
