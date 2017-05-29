@@ -5,7 +5,7 @@ import pyttsx
 engine = pyttsx.init()
 
 def take_1_down():
-    bottles_milk = 2
+    bottles_milk = 99
     while bottles_milk > 0:
         bottles_milk_minus_1 = bottles_milk - 1
         if bottles_milk == 1:
