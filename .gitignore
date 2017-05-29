@@ -1,0 +1,10 @@
+#Ignore python compiled files
+*.pyc
+
+# Ignore rope project files
+.ropeproject/
+
+# Ignore virtualenv stuff
+venv/
+venv3/
+venv*/
